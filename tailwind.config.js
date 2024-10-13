@@ -16,16 +16,17 @@ module.exports = {
   theme: {
     extend: {
       lineHeight: {
-        11: '2.75rem',
-        12: '3rem',
-        13: '3.25rem',
-        14: '3.5rem',
+        11: '2.5rem',
+        12: '2.5rem',
+        13: '3rem',
+        14: '3.25rem',
       },
       fontFamily: {
-        sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
+        // sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
+        sans: ['var(--font-noto-mono)', ...fontFamily.sans],
       },
       colors: {
-        primary: colors.pink,
+        primary: colors.indigo,
         gray: colors.gray,
       },
       zIndex: {
